@@ -1,1 +1,7 @@
-{"run_list":["recipe[anim_encoder]"]}
+{
+  "run_list": [
+    "recipe[git]",
+    "recipe[anim_encoder]"
+  ],
+  "username": "vagrant"
+}
